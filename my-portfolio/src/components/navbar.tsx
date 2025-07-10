@@ -24,7 +24,8 @@ import {
 export default function NewNavbar() {
   const navItems = [
     { name: "Home", link: "/" },
-    { name: "About", link: "/about" },
+    { name: "About", link: "#about" },
+    { name :"Qualifications",link:"#qualification"},
     { name: "Projects", link: "/projects" },
   ];
 

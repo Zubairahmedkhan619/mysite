@@ -17,7 +17,7 @@ export const BackgroundLines = ({
   return (
     <div
       className={cn(
-        "h-[20rem] md:h-screen w-full bg-white dark:bg-black",
+        "h-[20rem] md:h-screen w-full bg-white  dark:bg-black",
         className
       )}
     >
@@ -96,7 +96,7 @@ const SVG = ({
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={{ opacity: 2 }}
       transition={{ duration: 1 }}
       className="absolute inset-0 w-full h-full"
     >

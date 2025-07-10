@@ -1,3 +1,5 @@
+import About from "@/components/About";
+import Qualification from "@/components/qualification"
 import HeroSection from "@/components/Hero";
 import { SparklesCore } from "@/components/ui/sparkles";
 import Image from "next/image";
@@ -18,6 +20,12 @@ export default function Home() {
         </div>
         <div className="pt-20">
           <HeroSection />
+          <div  id="about">
+          <About/>
+          </div>
+          <div id="qualification">
+            <Qualification/>
+          </div>
         </div>
       {/* </main> */}
     </div>
