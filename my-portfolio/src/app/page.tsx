@@ -25,11 +25,11 @@ export default function Home() {
           <div  id="about">
           <About/>
           </div>
-          <div id="qualification">
-            <Qualification/>
-          </div>
           <div id="experience" >
             <Experience/>
+          </div>
+          <div id="qualification">
+            <Qualification/>
           </div>
           <div id="projects">
             <Projects/>

@@ -6,8 +6,8 @@ import SkillCards from "./SkillCard";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 px-4 md:px-8">
-      <Card className=" max-w-8xl grid grid-cols-1 md:grid-cols-2 gap-8 p-6 md:p-8 ">
+    <section id="about" className="py-50 px-4 md:px-8">
+      <Card className=" max-w-8xl grid grid-cols-1 md:grid-cols-2 gap-8 p-6 md:p-8 py-50 ">
         <CardContent className="flex flex-col items-start text-left justify-center">
           <CardHeader className="p-0">
             <h2 className="text-4xl font-bold mb-4 text-red-600 whitespace-nowrap">

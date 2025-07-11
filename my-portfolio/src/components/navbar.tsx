@@ -27,8 +27,8 @@ export default function NewNavbar() {
   const navItems = [
     { name: "Home", link: "/" },
     { name: "About", link: "#about" },
-    { name: "Qualifications", link: "#qualification" },
     { name: "Experience", link: "#experience" },
+    { name: "Qualifications", link: "#qualification" },
     { name: "Projects", link: "#projects" },
   ];
 
@@ -54,9 +54,12 @@ export default function NewNavbar() {
           />
           <div className="hidden md:flex items-center gap-4 ml-auto">
             {/* <NavbarButton variant="secondary">Login</NavbarButton> */}
+            <a href="/contact">
+
             <NavbarButton variant="primary" className=" bg-red-600 text-white">
               Contact
             </NavbarButton>
+            </a>
           </div>
         </NavBody>
 

@@ -81,7 +81,7 @@ import {
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 px-4 md:px-8">
+    <section id="experience" className="py-45 px-4 md:px-8">
       <Card className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 p-8 bg-gray-900 rounded-lg shadow-lg">
         {/* Left column - Heading */}
         <CardContent className="flex flex-col justify-center items-start text-left">
