@@ -89,9 +89,9 @@ export default function Experience() {
             Experience
           </CardTitle>
           {/* Optional description below */}
-          {/* <p className="text-gray-300 max-w-md leading-relaxed">
+          <p className="text-gray-300 max-w-md leading-relaxed">
             Here are some of my professional experiences and projects.
-          </p> */}
+          </p>
         </CardContent>
 
         {/* Right column - Experience Card */}

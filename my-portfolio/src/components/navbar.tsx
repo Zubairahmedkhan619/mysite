@@ -29,7 +29,7 @@ export default function NewNavbar() {
     { name: "About", link: "#about" },
     { name: "Qualifications", link: "#qualification" },
     { name: "Experience", link: "#experience" },
-    { name: "Projects", link: "/projects" },
+    { name: "Projects", link: "#projects" },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -48,7 +48,10 @@ export default function NewNavbar() {
               </a>
             </Button>
           </div>
-          <NavItems items={navItems} className="data-[state=active]:text-red-600"/>
+          <NavItems
+            items={navItems}
+            className="data-[state=active]:text-red-600"
+          />
           <div className="hidden md:flex items-center gap-4 ml-auto">
             {/* <NavbarButton variant="secondary">Login</NavbarButton> */}
             <NavbarButton variant="primary" className=" bg-red-600 text-white">

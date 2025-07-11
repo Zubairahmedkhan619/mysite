@@ -11,7 +11,7 @@ export default function HeroSection() {
   const words = `Hi, Iam Zubair Ahmed Khan `;
 
   return (
-    <section className="w-full min-h-[80vh] flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 py-20">
+    <section className="w-full min-h-[80vh] flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-10 ">
       <Card className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-6 md:p-8 max-w-12xl bg-white/80 backdrop-blur-sm shadow-xl rounded-xl w-full">
       {/* <Card className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-6 md:p-8 max-w-[1440px] bg-white/80 backdrop-blur-sm shadow-xl rounded-xl w-full mx-auto"> */}
         {/* Left side - Text */}
