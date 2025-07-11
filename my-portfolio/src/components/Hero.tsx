@@ -8,22 +8,18 @@ import Image from "next/image";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 export default function HeroSection() {
-  const words = `Hi, Iam Zubair Ahmed Khan`;
+  const words = `Hi, Iam Zubair Ahmed Khan `;
 
   return (
-    <section className="relative w-full min-h-[80vh] flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 py-16">
-      <Card className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-6 md:p-8 max-w-8xl bg-white/80 backdrop-blur-sm shadow-xl rounded-xl w-full">
+    <section className="w-full min-h-[80vh] flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 py-20">
+      <Card className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-6 md:p-8 max-w-12xl bg-white/80 backdrop-blur-sm shadow-xl rounded-xl w-full">
+      {/* <Card className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-6 md:p-8 max-w-[1440px] bg-white/80 backdrop-blur-sm shadow-xl rounded-xl w-full mx-auto"> */}
         {/* Left side - Text */}
         <CardContent className="flex flex-col items-start justify-center space-y-4 p-2">
           <div className="w-full flex flex-col ">
-            {/* First line */}
-
-            {/* <h1 className="text-4xl md:text-4xl w-full font-bold"></h1> */}
-            {/* Second line */}
             <TextGenerateEffect
               words={words}
               className="text-4xl md:text-5xl w-full"
-              // cursorClassName="h-8"
             />
           </div>
 
@@ -32,7 +28,7 @@ export default function HeroSection() {
               { text: "Full", className: "text-red-600" },
               { text: "-", className: "text-red-600" },
               { text: "Stack ", className: "text-red-600" },
-              { text: "Developer" ,className: "text-red-600" },
+              { text: "Developer", className: "text-red-600" },
             ]}
             className="text-3xl md:text-3xl font-bold text-red-600 mb-6"
           />

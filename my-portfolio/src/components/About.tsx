@@ -10,7 +10,7 @@ export default function About() {
       <Card className=" max-w-8xl grid grid-cols-1 md:grid-cols-2 gap-8 p-6 md:p-8 ">
         <CardContent className="flex flex-col items-start text-left justify-center">
           <CardHeader className="p-0">
-            <h2 className="text-4xl font-bold mb-4 text-red-500 whitespace-nowrap">
+            <h2 className="text-4xl font-bold mb-4 text-red-600 whitespace-nowrap">
               About Me
             </h2>
           </CardHeader>

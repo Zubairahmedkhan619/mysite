@@ -10,6 +10,8 @@ import {
   NavBody,
   NavItems,
 } from "./ui/resizable-navbar";
+import { Button } from "./ui/button";
+import { CodeXml, Rocket } from "lucide-react";
 // import {
 //   MobileNav,
 //   MobileNavHeader,
@@ -25,7 +27,8 @@ export default function NewNavbar() {
   const navItems = [
     { name: "Home", link: "/" },
     { name: "About", link: "#about" },
-    { name :"Qualifications",link:"#qualification"},
+    { name: "Qualifications", link: "#qualification" },
+    { name: "Experience", link: "#experience" },
     { name: "Projects", link: "/projects" },
   ];
 
@@ -36,7 +39,16 @@ export default function NewNavbar() {
       <Navbar className="max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8 py-2">
         {/* Desktop Nav */}
         <NavBody className="flex items-center justify-between w-full">
-          <NavItems items={navItems} />
+          <div>
+            <Button variant={"ghost"} className="flex items-center gap-2">
+              <a className="text-lg font-bold text-red-600">ZAK</a>
+              <a>
+                {/* <Rocket className=" text-lg font-black text-black"/> */}
+                <CodeXml className=" text-4xl font-black text-black" />
+              </a>
+            </Button>
+          </div>
+          <NavItems items={navItems} className="data-[state=active]:text-red-600"/>
           <div className="hidden md:flex items-center gap-4 ml-auto">
             {/* <NavbarButton variant="secondary">Login</NavbarButton> */}
             <NavbarButton variant="primary" className=" bg-red-600 text-white">

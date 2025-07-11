@@ -3,6 +3,7 @@ import Qualification from "@/components/qualification"
 import HeroSection from "@/components/Hero";
 import { SparklesCore } from "@/components/ui/sparkles";
 import Image from "next/image";
+import Experience from "@/components/experience";
 
 export default function Home() {
   return (
@@ -25,6 +26,9 @@ export default function Home() {
           </div>
           <div id="qualification">
             <Qualification/>
+          </div>
+          <div id="experience" >
+            <Experience/>
           </div>
         </div>
       {/* </main> */}

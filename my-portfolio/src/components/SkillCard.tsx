@@ -95,45 +95,7 @@ export default function SkillCards() {
 
   return (
     <>
-      {/* <AnimatePresence>
-        {active && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/30 z-40"
-          />
-        )}
-      </AnimatePresence> */}
-
-      {/* <AnimatePresence>
-        {active && (
-          <div className="fixed inset-0 z-50 grid place-items-center p-4">
-            <motion.div
-              layoutId={`card-${active.title}-${id}`}
-              ref={ref}
-              className="w-full max-w-xl bg-white dark:bg-neutral-900 rounded-xl shadow-lg p-6"
-            >
-              <div className="flex justify-between items-center mb-4">
-                <motion.h3 className="text-xl font-bold text-gray-800 dark:text-white">
-                  {active.title}
-                </motion.h3>
-                <button onClick={() => setActive(null)} className="p-1 rounded-full hover:bg-red-100 dark:hover:bg-red-900">
-                  <CircleX className="text-red-500 dark:text-white" />
-                </button>
-              </div>
-
-              <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                className="text-gray-700 dark:text-gray-300"
-              >
-                {typeof active.content === "function" ? active.content() : active.content}
-              </motion.div>
-            </motion.div>
-          </div>
-        )}
-      </AnimatePresence> */}
+     
 
       <div className="space-y-4">
   {skillCards.map((card) => {
