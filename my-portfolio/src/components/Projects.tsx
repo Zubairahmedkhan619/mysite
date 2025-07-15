@@ -3,13 +3,17 @@ import { Card, CardContent, CardDescription, CardTitle } from "./ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import { WobbleCard } from "./ui/wobble-card";
 import Image from "next/image";
-import { BackgroundGradientAnimation } from "./ui/background-gradient-animation";
 
 export default function Projects() {
     return (
     //   <BackgroundGradientAnimation>
     <section id="projects" className="py-20 px-4 md:px-8 ">
          {/* < div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"> */}
+        <Card className="max-w-8xl mx-auto p-6 md:p-10">
+            <CardTitle className="text-4xl font-bold text-red-600">Projects</CardTitle>
+            <CardDescription className="text-lg text-gray-700 mb-6">
+                Here are some of the projects I have worked on, showcasing my skills in web development and design.
+            </CardDescription>
       <Card className="max-w-8xl mx-auto grid grid-cols-3 md:grid-cols-3 gap-6 p-6 md:p-10">
 
         <WobbleCard containerClassName="max-w-4xl mx-auto  bg-red-600 rotate-180">
@@ -126,6 +130,7 @@ export default function Projects() {
           </Card>
         </WobbleCard>
       
+    </Card>
       </Card>
       {/* </div> */}
 

@@ -1,9 +1,12 @@
 import React from "react";
 import { FaEnvelope, FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
+import { BackgroundBeams } from "./ui/background-beams";
+import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-collision";
 
 export default function Footer() {
   return (
     <footer className="w-full bg-white/80 text-white py-10 border-t border-gray-300 dark:bg-gray-800 dark:text-gray-300">
+      {/* <BackgroundBeamsWithCollision className=""> */}
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-around text-center gap-6 md:gap-0">
           {/* Email */}
@@ -78,6 +81,8 @@ export default function Footer() {
           reserved.
         </p>
       </div>
+      {/* <BackgroundBeams /> */}
+      {/* </BackgroundBeamsWithCollision> */}
     </footer>
   );
 }

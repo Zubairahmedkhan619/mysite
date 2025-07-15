@@ -52,7 +52,7 @@ export default function HeroSection() {
 
             <Button
               variant="outline"
-              className="flex items-center gap-2 border-red-600 text-red-500 hover:bg-red-40 transition-colors"
+              className="flex items-center gap-2 border-red-600 text-red-500 hover:border-black transition-colors"
             >
               View Projects
             </Button>
