@@ -36,16 +36,16 @@ export default function NewNavbar() {
 
   return (
     <div className="fixed top-0 left-0 w-full z-50 backdrop-blur bg-background/80 border-b border-muted">
-      <Navbar className="max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8 py-2">
+      <Navbar className="max-w-screen-2xl mx-auto px-4 md:px-6 lg:px-8 py-4">
         {/* Desktop Nav */}
         <NavBody className="flex items-center justify-between w-full">
           <div>
             <Button variant={"ghost"} className="flex items-center gap-2">
-              <a className="text-lg font-bold text-red-600">ZAK</a>
-              <a>
+              <span className="text-lg font-bold text-red-600">ZAK</span>
+              <span>
                 {/* <Rocket className=" text-lg font-black text-black"/> */}
                 <CodeXml className=" text-4xl font-black text-black" />
-              </a>
+              </span>
             </Button>
           </div>
           <NavItems
