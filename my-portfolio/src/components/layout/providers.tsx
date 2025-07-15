@@ -2,6 +2,7 @@
 
 import React from "react";
 import NewNavbar from "../navbar";
+import Footer from "../footer";
 
 
 export default function Providers({children}:{children: React.ReactNode}){
@@ -9,6 +10,7 @@ export default function Providers({children}:{children: React.ReactNode}){
         <>
         <NewNavbar/>
         {children}
+        <Footer/>
         </>
     )
 }
