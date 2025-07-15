@@ -28,8 +28,8 @@ export default function NewNavbar() {
     { name: "Home", link: "/" },
     { name: "About", link: "#about" },
     { name: "Experience", link: "#experience" },
-    { name: "Qualifications", link: "#qualification" },
     { name: "Projects", link: "#projects" },
+    { name: "Qualifications", link: "#qualification" },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
