@@ -12,23 +12,15 @@ import {
 } from "./ui/resizable-navbar";
 import { Button } from "./ui/button";
 import { CodeXml, Rocket } from "lucide-react";
-// import {
-//   MobileNav,
-//   MobileNavHeader,
-//   MobileNavMenu,
-//   MobileNavToggle,
-//   Navbar,
-//   NavbarButton,
-//   NavBody,
-//   NavItems,
-// } from "@/components/ui/resizable-navbar";
+// import Link from "next/link";
+import Link from 'next/link'
 
 export default function NewNavbar() {
   const navItems = [
     { name: "Home", link: "/" },
     { name: "About", link: "#about" },
-    { name: "Experience", link: "#experience" },
     { name: "Projects", link: "#projects" },
+    { name: "Experience", link: "#experience" },
     { name: "Qualifications", link: "#qualification" },
   ];
 
@@ -54,12 +46,23 @@ export default function NewNavbar() {
           />
           <div className="hidden md:flex items-center gap-4 ml-auto">
             {/* <NavbarButton variant="secondary">Login</NavbarButton> */}
-            <a href="/contact">
-
-            <NavbarButton variant="primary" className=" bg-red-600 text-white">
-              Contact
-            </NavbarButton>
-            </a>
+            {/* <a href="/contact">
+              <NavbarButton
+                variant="primary"
+                className=" bg-red-600 text-white"
+              >
+                Contact
+              </NavbarButton>
+            </a> */}
+            <Link href="/contact" passHref>
+              <NavbarButton
+                variant="primary"
+                className="bg-red-600 text-white"
+                as="span" // or remove the internal anchor from NavbarButton
+              >
+                Contact
+              </NavbarButton>
+            </Link>
           </div>
         </NavBody>
 

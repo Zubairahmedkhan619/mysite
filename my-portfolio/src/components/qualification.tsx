@@ -192,7 +192,7 @@ export default function Qualification() {
                   <div className="flex gap-4 w-full">
                     <h3 className="text-gray-900 text-xl font-extrabold ">
                       {" "}
-                      Collage:{" "}
+                      College:{" "}
                     </h3>
                     <p className="text-gray-500 dark:text-gray-300 text-xl">
                       Jamal Mohamed College
@@ -250,7 +250,7 @@ export default function Qualification() {
                   <div className="flex gap-4 w-full">
                     <h3 className="text-gray-900 text-xl font-extrabold ">
                       {" "}
-                      School Name :{" "}
+                      College :{" "}
                     </h3>
                     <p className="text-gray-500 dark:text-gray-300 text-xl">
                       Jamal Mohamed College

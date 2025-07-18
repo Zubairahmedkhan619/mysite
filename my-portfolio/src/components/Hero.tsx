@@ -96,9 +96,9 @@ export default function HeroSection() {
 
         {/* Right side - Image */}
         <CardContent className="flex items-center justify-center p-4">
-          <div className="relative w-full h-70 md:h-90 lg:h-96">
+          <div className="relative w-full h-90 md:h-100 lg:h-120">
             <Image
-              src="/home3.jpg"
+              src="/home4.jpg"
               alt="Hero image"
               fill
               className="object-cover rounded-md shadow-md"
