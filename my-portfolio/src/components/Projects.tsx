@@ -314,7 +314,7 @@ export default function Projects() {
                   alt="Project Image"
                   width={400}
                   height={250}
-                  className="w-full h-[200px] object-fit rounded-lg mb-4 border-2 border-black"
+                  className="w-full h-[200px] object-fit rounded-lg mb-4"
                 />
               </CardContent>
               <CardContent>
@@ -490,7 +490,7 @@ export default function Projects() {
                     alt="Project Image"
                     width={400}
                     height={250}
-                    className="w-full h-[200px] object-contain rounded-lg mb-4 border-2 border-black"
+                    className="w-full h-[200px] object-contain rounded-lg mb-4 border-1 "
                   />
                 </a>
               </CardContent>
@@ -603,36 +603,32 @@ export default function Projects() {
               </Dialog>
             </Card>
           </WobbleCard>
-          <WobbleCard containerClassName="max-w-5xl mx-auto  bg-orange-100 rotate-180 ">
+
+          {/* CARD-7 */}
+          <WobbleCard containerClassName="max-w-5xl mx-auto  bg-gray-900 rotate-180 ">
             {/* Add your card content here */}
-            <Card className="rotate-180">
+            <Card className="rotate-180 bg-black border-0 ">
               <CardContent>
-                <a
-                  href="https://wpa.ae/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/wpahome.png"
-                    alt="Project Image"
-                    width={400}
-                    height={250}
-                    className="w-full h-[200px] object-contain rounded-lg mb-4 border-2 border-black"
-                  />
-                </a>
+                <Image
+                  src="/home6.jpg"
+                  alt="Project Image"
+                  width={400}
+                  height={250}
+                  className="w-full h-[200px] object-fit rounded-lg mb-4 border-2 border-black"
+                />
               </CardContent>
               <CardContent>
-                <CardTitle className="text-xl font-semibold mb-2 text-gray-900 hover:text-red-600 transition-colors duration-300">
-                  WPA Website
+                <CardTitle className="text-xl font-semibold mb-2 text-white hover:text-red-600 transition-colors duration-300">
+                  Current Learning
                 </CardTitle>
-                <CardDescription className="text-gray-700 font-medium">
-                  World Padel Academy (WPA) is the Padel Tennis operator{" "}
+                <CardDescription className="text-gray-400 font-medium">
+                  React native
                 </CardDescription>
               </CardContent>
               <Dialog>
                 <DialogTrigger asChild className="mt-4">
                   <Button
-                    variant="default"
+                    variant="ghost"
                     className="bg-red-600 text-white m-5 "
                   >
                     View Details
@@ -640,90 +636,25 @@ export default function Projects() {
                 </DialogTrigger>
                 <DialogContent>
                   <div>
-                    <a
-                      href="https://wpa.ae/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <DialogTitle className="text-2xl font-bold text-red-600 mb-1">
-                        WPA (UAE Website)
-                      </DialogTitle>
-                    </a>
-                    <span className="text-sm text-gray-500 ">
-                      <a
-                        href="https://wpa.ae/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:underline text-xl font-semibold"
-                      >
-                        https://wpa.ae/
-                      </a>
-                    </span>
-                    <CardDescription className="text-gray-700 font-medium mt-2">
-                      handling and adding of new tournaments and events of the
-                      WPA{" "}
-                    </CardDescription>
+                    <CardTitle className="text-gray-700 font-semibold mt-2 text-xl">
+                      Creating Mobile application
+                    </CardTitle>
                     <CardDescription className="text-gray-600 mt-2 font-medium">
-                      WPA (UAE) is the Padel Tennis operator in the UAE,
-                      responsible for managing and handling and adding of new
-                      tournaments and events of the WPA and there are six venues
-                      in UAE
-                    </CardDescription>
-                    <CardDescription className="text-gray-600 mt-2 font-medium">
-                      there are websites for
-                      <div className="gap-2">
-                        <a
-                          href="https://wpa.ae/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-red-600 hover:underline m-1 font-medium "
-                        >
-                          Dubai,
-                        </a>
-                        <a
-                          href="https://wpa.ae/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-600 hover:underline m-1 font-medium "
-                        >
-                          Abu Dhabi,
-                        </a>
-
-                        <a
-                          href="https://wpa.ae/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-green-600 hover:underline m-1 font-medium "
-                        >
-                          Bahrain,
-                        </a>
-
-                        <a
-                          href="https://wpa.ae/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-gray-600 hover:underline font-medium m-1"
-                        >
-                          Sharjah,
-                        </a>
-                        <a
-                          href="https://wpa.ae/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-purple-600 hover:underline font-medium m-1"
-                        >
-                          UK
-                        </a>
-                      </div>
-                      handles the respective tournaments and events.
+                      As start to learing new things to upgrade my skill. I am
+                      learning how to create mobile application using react
+                      native. Learning how to create a simple application using
+                      Expo and React Native.
                     </CardDescription>
                   </div>
                   <div className="mt-4">
-                    <Badge className="bg-cyan-600 text-white mr-2 mb-2 p-2">
-                      Worpress
-                    </Badge>
                     <Badge className="bg-orange-600 text-white mr-2 mb-2 p-2">
-                      Elementor
+                      React Native
+                    </Badge>
+                    <Badge className="bg-gray-900 text-white mr-2 mb-2 p-2">
+                      Expo APP
+                    </Badge>
+                    <Badge className="bg-cyan-400 text-white mr-2 mb-2 p-2">
+                      node js
                     </Badge>
                   </div>
                 </DialogContent>
