@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   Card,
@@ -16,7 +15,7 @@ export default function Contact() {
       {/* Intro Section */}
       <BackgroundLines>
         <section id="contact" className="mt-30  px-4 md:px-8">
-          <Card className="max-w-7xl mx-auto p-8 bg-gray-900 rounded-lg shadow-lg border border-white border-blur">
+          <Card className="max-w-4xl mx-auto p-8 bg-gray-900 rounded-lg shadow-lg border border-white border-blur">
             <CardContent className="text-center">
               <CardTitle className="text-5xl font-bold text-white mb-4">
                 <BackgroundLines
@@ -40,7 +39,8 @@ export default function Contact() {
             {/* Left Column */}
             <div className="flex flex-col justify-center space-y-6 text-left  bg-gray-900rounded-lg shadow-lg h-full">
               <h2 className="text-3xl md:text-5xl font-bold text-white text-center">
-                Contact Me
+                <span>Contact</span>
+                <span className="text-red-600 pl-2">Me</span>
               </h2>
               <p className="text-lg text-white text-center">
                 Feel free to reach out through email or social platforms.
