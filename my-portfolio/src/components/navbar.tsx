@@ -13,7 +13,7 @@ import {
 import { Button } from "./ui/button";
 import { CodeXml, Rocket } from "lucide-react";
 // import Link from "next/link";
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function NewNavbar() {
   const navItems = [

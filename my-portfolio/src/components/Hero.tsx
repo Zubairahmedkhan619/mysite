@@ -13,7 +13,7 @@ export default function HeroSection() {
   return (
     <section className="w-full min-h-[80vh] flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-10 ">
       <Card className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-6 md:p-8 max-w-12xl bg-white/80 backdrop-blur-sm shadow-xl rounded-xl w-full">
-      {/* <Card className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-6 md:p-8 max-w-[1440px] bg-white/80 backdrop-blur-sm shadow-xl rounded-xl w-full mx-auto"> */}
+        {/* <Card className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 p-6 md:p-8 max-w-[1440px] bg-white/80 backdrop-blur-sm shadow-xl rounded-xl w-full mx-auto"> */}
         {/* Left side - Text */}
         <CardContent className="flex flex-col items-start justify-center space-y-4 p-2">
           <div className="w-full flex flex-col ">
@@ -49,13 +49,14 @@ export default function HeroSection() {
               <Download className="w-4 h-4" />
               Download CV
             </Button>
-
-            <Button
-              variant="outline"
-              className="flex items-center gap-2 border-red-600 text-red-500 hover:border-black transition-colors"
-            >
-              View Projects
-            </Button>
+            <a href="#projects">
+              <Button
+                variant="outline"
+                className="flex items-center gap-2 border-red-600 text-red-500 hover:border-black transition-colors"
+              >
+                View Projects
+              </Button>
+            </a>
           </div>
 
           <div className="my-6 border-t border-gray-300 w-full"></div>
