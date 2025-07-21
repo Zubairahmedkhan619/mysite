@@ -1,7 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 import { BackgroundBeams } from "./ui/background-beams";
-import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-collision";
 
 export default function Footer() {
   return (
